@@ -3,7 +3,7 @@
   "name": "Youtube Freemium",
   "version": "1.0",
   "icons": {
-    "128": "freemium.ico"
+    "128": "freemium.png"
   },
   "description": "You're poor guy with no money? but you still want to enjoy YouTube with that premium logo. Install this extension RIGHT NOW.",
   "content_scripts": [
