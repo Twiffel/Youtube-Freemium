@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Freemium",
+  "version": "1.0",
+  "icons": {
+    "128": "freemium.ico"
+  },
+  "description": "You're poor guy with no money? but you still want to enjoy YouTube with that premium logo. Install this extension RIGHT NOW.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
